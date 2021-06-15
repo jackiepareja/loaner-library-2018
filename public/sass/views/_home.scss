@@ -1,0 +1,17 @@
+#landing {
+
+	.button_container {
+		padding-top: 3rem;
+		&-login {
+			display: block;
+			margin: auto;
+		}
+	}
+
+	.signup_container {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 5rem;
+	}
+
+}

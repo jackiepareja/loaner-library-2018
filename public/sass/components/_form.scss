@@ -1,0 +1,46 @@
+.landing {
+	position: relative;
+
+	&_form {
+		padding: 6rem;
+		margin: 10rem auto;
+
+
+		@include box-shadow;
+
+		@include respond(phone) {
+			width: 100%;
+			margin: 5rem auto;
+		}
+		@include respond(tab-port) {
+			width: 80%;
+		}
+
+		@include respond(desktop) {
+			width: 50%;
+		}
+
+	}
+}
+
+.form {
+	&_label {
+		margin-top: .5rem;
+		display: block;
+	}
+}
+
+.form_container {
+  @include box-shadow;
+  width: 60%;
+  margin: 5rem auto;
+
+	@include respond(phone){
+		width: 100%;
+	}
+
+	&-wrapper {
+		width: 70%;
+		margin: auto;
+	}
+}

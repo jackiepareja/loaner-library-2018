@@ -1,0 +1,60 @@
+.header_one {
+	font-size: 2.4rem;
+}
+
+.header_primary,
+.font_22{
+	font-size: 2.2rem;
+
+	@include respond(phone) {
+		font-size: 1.8rem;
+	}
+}
+
+.font_30 {
+	font-size: 3rem;
+}
+
+
+
+.font_20,
+.card-title {
+	font-size: 2rem;
+
+	@include respond(phone){
+		font-size: 1.5rem;
+	}
+}
+
+.font_18,
+.nav-link {
+	font-size: 1.8rem;
+}
+
+.font_17,
+.form_label,
+.card-text {
+	font-size: 1.7rem;
+}
+
+.errorMessage {
+	font-size: 1.5rem;
+}
+
+.font_15,
+.form-control {
+	font-size: 1.5rem;
+}
+
+.font_13 {
+	font-size: 1.3rem;
+}
+
+.success_msg {
+	text-align: center;
+	display: block;
+
+	&-text {
+		color: green;
+	}
+}

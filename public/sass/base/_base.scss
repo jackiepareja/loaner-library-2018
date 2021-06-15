@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		color: inherit;
+	}
+}
+
+.main_wrapper {
+	position: relative;
+}
+
+
+// delete after
+.asset_links {
+	margin: 2rem auto;
+
+	a {
+		margin-right: 2rem;
+	}
+}

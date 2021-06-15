@@ -1,0 +1,30 @@
+.edit_buttons {
+	text-align: right;
+}
+
+.viewUser {
+	.container {
+		margin: auto;
+		padding: 3rem;
+		position: relative;
+	}
+
+	.list {
+		border-bottom: 1px solid gainsboro;
+	}
+
+	&_top {
+		margin: 2rem auto;
+		padding: .9rem 0;
+		background-color: $color-black-2;
+		color: $color-white;
+		border-radius: 5px;
+	}
+
+	&_middle {
+
+		&-image {
+			width: 100%;
+		}
+	}
+}

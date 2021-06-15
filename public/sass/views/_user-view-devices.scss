@@ -1,0 +1,34 @@
+.userDashboard {
+  .wrapper {
+
+  &_sub--header {
+    padding: 3rem;
+  }
+
+  &_view--assets {
+    padding: 3rem;
+  }
+
+  .card {
+    min-height: 32rem;
+    padding-bottom: 3rem;
+
+    @include respond(tab-port) {
+      min-height: 28rem;
+    }
+
+    &-img-top {
+      display: block;
+      max-width: 10rem;
+      max-height: 9.5rem;
+      width: auto;
+      height: auto;
+      margin: 2rem auto;
+    }
+
+    &-text {
+      color: $color-black-2;
+      }
+    }
+  }
+}

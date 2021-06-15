@@ -1,0 +1,29 @@
+hr {
+	width: 100%;
+	border: 1px solid $color-grey-2;
+}
+
+.box-shadow {
+	@include box-shadow;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	color: $color-black-2;
+	font-weight: 500;
+}
+
+.border_rad50 {
+	border-radius: 50%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.white {
+	color: $color-white;
+}

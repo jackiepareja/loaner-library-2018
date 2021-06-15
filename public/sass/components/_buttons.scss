@@ -1,0 +1,99 @@
+.btn {
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		color: $color-white;
+		box-shadow: 0 4px 4px $color-black-3;
+		transition: all .2s ease;
+	}
+
+	&:active {
+		box-shadow: 0 0 0 $color-black-3;
+	}
+
+	&:disabled {
+		color: $color-grey-2;
+		border: 1.4px solid $color-grey-2;
+		background-color: transparent;
+	}
+
+	&-alt {
+		color: $color-black-2;
+
+		&:hover {
+			color: $color-black-3;
+		}
+	}
+}
+
+.nav_button {
+	border: 1px solid $color-white;
+	background-color: transparent;
+	color: $color-white;
+	padding: .1rem 1rem;
+	vertical-align: text-bottom;
+	border-radius: 3px;
+	let
+
+	&:hover,
+	&:active {
+		background-color: $color-white;
+		color: $color-black-2;
+	}
+}
+
+
+.black_button {
+	background-color: $color-black-2;
+	color: $color-white;
+	border-radius: 2rem;
+	width: 10vw;
+	font-size: 1.5rem;
+	
+	@include respond(phone) {
+		width: 30vw;
+	}
+	@include respond(tab-port) {
+		width: 12vw;
+	}
+	@include respond(big){
+		width: 8vw;
+	}
+
+}
+
+.search {
+	width: 40%;
+	position: relative;
+	font-size: 1.5rem;
+
+	&_button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-radius: 0 3px 3px 0;
+		background-color: $color-black-2;
+		color: $color-white;
+		outline: none;
+		font-size: 1.5rem;
+	}
+}
+
+.button_checkout {
+	font-size: 1.5rem;
+	border-radius: 50%;
+	background-color: $color-green;
+	color: whitesmoke;
+	padding: 1.5rem;
+	width: 5.5rem;
+	box-shadow: 0 4px 6px $color-black-2;
+	position: absolute;
+	top: -5%;
+	right: 10%;
+}
+
+#loan_button,
+#form_return_button {
+	text-align: left;
+}

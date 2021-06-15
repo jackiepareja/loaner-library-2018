@@ -1,0 +1,22 @@
+.filter {
+  display: flex;
+}
+
+.filter_options {
+  border: 1px solid $color-black-2;
+  width: 100%;
+  border-radius: 3px;
+  background-color: transparent;
+  color: $color-black-2;
+  height: 3rem;
+}
+
+.filter_options-button {
+  background-color: $color-black-2;
+  color: $color-white;
+  border: none;
+  width: 4rem;
+  margin: 0 0.5rem;
+  height: 3rem;
+  border-radius: 3px;
+}
